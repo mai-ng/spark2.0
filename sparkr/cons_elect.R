@@ -2,12 +2,12 @@
 ## SparkR: From a CSV to a SparkR DataFrame ##
 ## Maing, 12-2018 ##
 ############################################################################
-## Objective: Read a list of input files whose paths are defined a json file,
-#### then create Spark Dataframes from these files with a predefined schema.
+## Objective: Read data about the electric consumation from a CSV file,
+## create a Spark DataFrame from the file.
 ## * Initiate SparkR
 ## * Set up command line arguments (a script and an input file)
 ## * Create a function which creates a Spark DataFrame from a file
-## * Create a Spark DataFrame from a list of input files
+## * Create a Spark DataFrame from an input files
 
 ## How to run the script: "spark-submit script_path input_path"
 ## e.g. spark-submit cons_elect.R /Users/nguyen/maing/training/r/data/cons_elec.csv
