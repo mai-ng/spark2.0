@@ -1,0 +1,24 @@
+{
+  "inputs": ["/Users/nguyen/maing/training/formation.bigdata/data/cons_elec.csv"],
+  "output": "hdfs://localhost:9000/user/mai/data/",
+  "format": "csv",
+  "header": "true",
+  "sep": ";",
+  "schema":
+  [
+    {
+      "name" : "jour",
+      "type" : "timestamp"
+    },
+    {
+      "name" : "cate_client",
+      "type" : "string"
+    },
+    {
+      "name" : "cons_elect",
+      "type" : "double"
+    }
+  ],
+  "logLevel": "INFO"
+}
+
