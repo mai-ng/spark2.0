@@ -13,13 +13,6 @@
 ## e.g. spark-submit cons_elect.R /Users/nguyen/maing/training/r/data/cons_elec.csv
 
 
-# Load libraries
-library(SparkR)
-library(jsonlite)
-
-# Initiate a Spark Session
-sparkR.session()
-
 # Set up command line arguments
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) != 1) {
@@ -27,6 +20,12 @@ if (length(args) != 1) {
 } else {
   inputFile = args[1] # e.g. "/Users/nguyen/maing/training/r/data/cons_elec.csv"
 }
+
+# Load libraries
+library(SparkR)
+
+# Initiate a Spark Session
+sparkR.session()
 
 ######## CREATE DF FROM A FILE ##################
 
