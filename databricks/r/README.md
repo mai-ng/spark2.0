@@ -14,7 +14,7 @@ To work on Spark libraries in R: SparkR, Sparklyr ... on Clusters (DataBricks)
 
 - **Linear Regression.dbc**: Get started with Linear Regression on DataBricks.
 
--**Logistic Regession.dbc**: get started with Logistic Regression on Databricks.
+- **Logistic Regession.dbc**: get started with Logistic Regression on Databricks.
 
 - **SparkLyr.dbc**: Get started with Sparklyr on Databricks.
 
